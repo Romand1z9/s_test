@@ -1,0 +1,70 @@
+ .container-extra {
+ 	padding-left: 50px;
+ 	padding-right: 50px;
+ }
+.month  {
+	display: block;
+	color: #207a47;
+	background: #ebf5ec;
+	margin-right: 7px;
+	margin-left: 7px;
+	margin-bottom: 8px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	border: 1px solid #207a47;
+	border-radius: 10px;
+}
+.month_title {
+	font-size: 20px;
+	font-weight: 500;
+	text-align: center;
+	border-bottom: 1px solid #207a47;
+	width: 75%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.month table th {
+	background-color: #fff;
+	border: 3px solid #ebf5ec;
+	text-align: center;
+}
+.month table th.holiday {
+	background-color: #e38f7b;
+	color: #fff;
+}
+.month td.date_cell {
+	border: 3px solid #ebf5ec;
+	background-color: #fff;
+	padding-left: .5rem;
+	padding-right: .5rem;
+}
+.month td.past_cell {
+	opacity: 0.3;
+}
+.month td.booking_cell {
+	background-color: red;
+	color: #fff;
+}
+.month td.chosen_cell {
+	background-color: #77b97e;
+	color: #fff;
+}
+.month td.free_cell:hover, .month td.chosen_cell:hover {
+	cursor: pointer;
+}
+.extra_tr td {
+	padding-bottom: 10px;
+}
+h1.main_title {
+	color: #227a47;
+}
+.phone_error {
+	border: 1px solid red;
+}
+#booking_submit {
+	background-color: #77b97e;
+	border-radius: 0px;
+	font-weight: 500;
+}
